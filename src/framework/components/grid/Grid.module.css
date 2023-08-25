@@ -1,0 +1,37 @@
+.table {
+    margin-top: 30px;
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fafafa;
+    border: 1px solid #ccc;
+}
+
+.col {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+    color: #4b4b4b;
+}
+
+.col-btn {
+    border: 1px solid #ccc;
+    width: 80px;
+}
+
+.btn-sort {
+    padding: 0;
+    background-color: #fafafa;
+    font-weight: bold;
+    border: none;
+    color: #0064e4;
+    cursor: pointer;
+}
+
+.cell {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.btn-sort:hover {
+    color: #6caeff;
+}

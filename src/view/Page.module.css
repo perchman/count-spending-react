@@ -1,0 +1,20 @@
+.title {
+
+}
+
+.btn-add {
+    display: inline-block;
+    width: 100px;
+    padding: 10px 0;
+    margin-right: 10px;
+    color: #fff;
+    background-color: #4793ff;
+    border-radius: 4px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.btn-add:hover {
+    background-color: #8abcff;
+}

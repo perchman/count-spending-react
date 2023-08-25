@@ -1,0 +1,30 @@
+.pagination {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.info {
+
+}
+
+.buttons {
+
+}
+
+.button {
+    background-color: #fcfcfc;
+    border: 1px solid #ccc;
+    margin: 0 -1px;
+    padding: 5px 10px;
+}
+
+.button:hover {
+    background-color: #dedede;
+}
+
+.active {
+    font-weight: bold;
+    background-color: #dedede;
+}
