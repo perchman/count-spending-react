@@ -3,12 +3,13 @@
 }
 
 .item {
+    display: flex;
     margin: 20px 0;
-    max-width: 350px;
+    max-width: 450px;
 }
 
 .input {
-    width: 100%;
+    width: 60%;
     padding: 10px;
     border: 1px solid #ccc;
     borderRadius: 4px;
@@ -19,6 +20,12 @@
     border-color: #c9d0ff;
     box-shadow: 0 0 4px rgba(201, 208, 255, 1);
     outline: none;
+}
+
+.error {
+    width: 40%;
+    padding-left: 10px;
+    color: red;
 }
 
 .button {

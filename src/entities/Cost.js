@@ -85,7 +85,7 @@ export default class Cost extends IndexedDBActiveRecordModel {
             description,
             category
         )
-        console.log(cost);
+
         await cost.save();
 
         return cost;

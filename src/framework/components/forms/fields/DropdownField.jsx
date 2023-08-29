@@ -10,17 +10,18 @@ export default function DropdownField(props) {
         });
     }, []);
 
-    const handelSelectChange = (e) => {
-        setSelectedOption(e.target.value);
-        props.onChange(e);
-    }
-    console.log(selectedOption);
+    // const handelSelectChange = (e) => {
+    //     setSelectedOption(e.target.value);
+    //     props.onChange(e);
+    // }
+
     return (
         <select
             className={props.style.select}
             name={props.name}
-            value={selectedOption}
-            onChange={handelSelectChange}
+            defaultValue={selectedOption}
+            // value={selectedOption}
+            // onChange={handelSelectChange}
         >
             <option disabled hidden value='selected'>{props.disabledOption}</option>
             {data.map((item) => (

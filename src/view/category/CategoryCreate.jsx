@@ -8,8 +8,8 @@ import Category from "../../entities/Category";
 export default function CategoryCreate() {
     const navigate = useNavigate();
 
-    const handelSubmit = (formData) => {
-        Category.create(formData.name);
+    const handelSubmit = (data) => {
+        Category.create(data.name);
         navigate("/category/index");
     }
 
