@@ -1,0 +1,10 @@
+POST http://localhost:5000/costs
+Content-Type: application/json
+
+{
+  "date": "2011-11-11",
+  "category": "b4261da3-6002-4116-beef-6b1e87934270",
+  "price": "100",
+  "description": "Description"
+}
+
